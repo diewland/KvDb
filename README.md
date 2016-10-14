@@ -7,19 +7,19 @@ Micro key-value database based on HTML5 localStorage :scream_cat:
 
     var TestDb = new KvDb('TEST_DB');
     
-    // add item
+    // C - create
     TestDb.set('key1', 'value1');
     TestDb.set('key2', 'value2');
     TestDb.set('key3', 'value333');
     TestDb.set('junk_key', 'some_junk');
-    
-    // update item
-    TestDb.set('key3', 'value3');
-    
-    // remove item
+        
+    // R - remove
     TestDb.remove('junk_key');
     
-    // display
+    // U - update
+    TestDb.set('key3', 'value3');
+        
+    // D - display
     var all = TestDb.all();
     for(var i in all){
         var o = all[i];

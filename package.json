@@ -1,6 +1,6 @@
 {
   "name": "kv-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Micro key-value database based on localStorage.",
   "main": "kvdb.js",
   "scripts": {

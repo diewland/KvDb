@@ -27,6 +27,8 @@ Micro key-value database based on HTML5 localStorage :scream_cat:
     for(var i in all){
         var o = all[i];
         console.log('>', o.k, o.v);
+    // and drop
+    TestDb.drop('TEST_DB');
     }
 </script>
 ```

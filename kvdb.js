@@ -41,4 +41,13 @@ function KvDb(db_name){
     localStorage.setItem(this.db_name, JSON.stringify(db));
     return db;
   }
+  this.drop = function(db_name){
+    if(db_name != this.db_name){
+      return false;
+    }
+    else {
+      localStorage.removeItem(db_name);
+      return true;
+    }
+  }
 }

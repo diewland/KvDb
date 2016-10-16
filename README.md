@@ -1,6 +1,10 @@
 # KvDb
 Micro key-value database based on HTML5 localStorage :scream_cat:
 
+### install
+```npm install kv-db```
+
+### example
 ```javascript
 <script src='kvdb.js'></script>
 <script>

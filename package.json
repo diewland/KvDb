@@ -1,0 +1,24 @@
+{
+  "name": "kv-db",
+  "version": "1.0.0",
+  "description": "Micro key-value database based on localStorage.",
+  "main": "kvdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diewland/KvDb.git"
+  },
+  "keywords": [
+    "micro",
+    "database",
+    "development"
+  ],
+  "author": "Yuwat Chuesathuchon <diewland@gmail.com> (http://diewland.com)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/diewland/KvDb/issues"
+  },
+  "homepage": "https://github.com/diewland/KvDb#readme"
+}

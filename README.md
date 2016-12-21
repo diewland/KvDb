@@ -1,6 +1,5 @@
 # KvDb
-[![npm](https://img.shields.io/npm/v/vegeta.js.svg)](https://www.npmjs.com/package/kv-db)
-![license](https://img.shields.io/github/license/diewland/KvDB.svg)
+[![npm](https://img.shields.io/npm/v/kv-db.svg)](https://www.npmjs.com/package/kv-db)
 
 Micro key-value database based on HTML5 localStorage :scream_cat:
 
